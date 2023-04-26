@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Saiful Islam</title>
+		<link href="index.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<h2>Personal Information</h2>
+		<form>
+			<h2><center><u>Submit all your perasonal informartion</u></center></h2>
+		<form name="input" action="" method="get" >
+			First Name:<input type="text" name="first name" placeholder="First Name" required/><br><br>
+			Last Name:<input type="text" name="Last name" placeholder="Last Name"/><br><br>
+			Father's Name:<input type="text" name="father name" placeholder="Father's Name"/><br><br>
+			Mother's Name:<input type="text" name="mother name" placeholder="Mother's Name"/><br><br>
+			<label for="email">Email</label>
+			<input type="gmail" name="email" id="email"/>
+			Address:<input type="text" name="address" placeholder="Your current address"/><br><br>
+			Mobile No.:<input type="text" name="number" placeholder="Include with country code"/><br><br>
+			Include pin code:<input type="password" name="password" placeholder="use 4 digit only"/><br><br>
+			You are:<br>
+			<input type="radio" name="gender" value="male"/>Male<br>
+			<input type="radio" name="gender" value="female"/>female<br><br>
+			Country:
+			<select name="Nationality">
+			<option value="Nationality">Bangladesh</option>
+			<option value="Nationality">Iraq</option>
+			<option value="Nationality">Iran</option>
+			<option value="Nationality">Qatar</option>
+			<option value="Nationality">India</option>
+			<option value="Nationality">Pakistan</option>
+			<option value="Nationality">U.S.A</option>
+			<option value="Nationality">U.K.</option>
+			</select><br><br>
+			<fieldset>
+				<legend>Must fill this box</legend>
+				Have you worked this type of company before?<br>
+				<input type="radio" name="submit" value="yes"/>Yes<br>
+				<input type="radio" name="submit" value="No"/>No<br>
+				Give a suitable reason whu you want to work with us:<br>
+				<textarea rows="10" cols="80"></textarea>
+				
+			</fieldset>
+			<input type="checkbox" name="submit" value="ya"/>I certify that all the information I have given that 100% correct.<br>
+			<input type="checkbox" name="submit" value="ya"/>I accept all the terms and condition of your company.<br>
+			<input type="submit" name="submit" value="Submit your information"/>
+			<input type="reset" value="RESET"/>
+			<script>
+				function myfunction()
+				{
+				window.print();
+				}
+			
+			</script>
+			<button onclick="myfunction()">Print this page</button>
+				
+		</form>
+		</form>
+	</body>
+</html>
